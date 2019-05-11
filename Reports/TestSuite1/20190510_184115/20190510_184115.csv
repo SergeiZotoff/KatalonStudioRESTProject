@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,,,,2019-05-10 18:41:17,2019-05-10 18:41:22,"5,622s",PASSED
+,,,,,,,
+Test Cases/SampleTestOne,,,,2019-05-10 18:41:17,2019-05-10 18:41:21,"3,556s",PASSED
+"sendRequest(findTestObject(""RESTWebServices/ListUsers""))",,,,2019-05-10 18:41:17,2019-05-10 18:41:20,"2,856s",PASSED
+"sendRequest(findTestObject(""RESTWebServices/CreateUser""))",,,,2019-05-10 18:41:20,2019-05-10 18:41:21,"0,384s",PASSED
+,,,,,,,
+Test Cases/APIChainingDemo,,,,2019-05-10 18:41:21,2019-05-10 18:41:22,"1,804s",PASSED
+"response1 = sendRequest(findTestObject(""RESTWebServices/ListUsers""))",,,,2019-05-10 18:41:21,2019-05-10 18:41:21,"0,590s",PASSED
+slurper = new groovy.json.JsonSlurper(),,,,2019-05-10 18:41:21,2019-05-10 18:41:21,"0,009s",PASSED
+result = slurper.parseText(response1.getResponseBodyContent()),,,,2019-05-10 18:41:21,2019-05-10 18:41:21,"0,020s",PASSED
+value = first_name,,,,2019-05-10 18:41:21,2019-05-10 18:41:21,"0,009s",PASSED
+"println(""... value extracted is: "" + value)",,,,2019-05-10 18:41:21,2019-05-10 18:41:21,"0,006s",PASSED
+userName = value,,,,2019-05-10 18:41:21,2019-05-10 18:41:22,"0,212s",PASSED
+"println(""... Global Variable is: "" + userName)",,,,2019-05-10 18:41:22,2019-05-10 18:41:22,"0,009s",PASSED
+"sendRequestAndVerify(findTestObject(""RESTWebServices/UpdateUser""))",,,,2019-05-10 18:41:22,2019-05-10 18:41:22,"0,783s",PASSED

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DataDrivenTestSuite,,,,2019-05-11 13:18:33,2019-05-11 13:18:37,"4,431s",PASSED
+,,,,,,,
+Test Cases/DataDrivenDemoTest,,,,2019-05-11 13:18:33,2019-05-11 13:18:36,"2,715s",PASSED
+"println(""... using username: "" + userName)",,,,2019-05-11 13:18:33,2019-05-11 13:18:33,"0,011s",PASSED
+"sendRequest(findTestObject(""RESTWebServices/CreateUser"", [""userName"":userName]))",,,,2019-05-11 13:18:33,2019-05-11 13:18:36,"2,407s",PASSED
+,,,,,,,
+Test Cases/DataDrivenDemoTest,,,,2019-05-11 13:18:36,2019-05-11 13:18:36,"0,672s",PASSED
+"println(""... using username: "" + userName)",,,,2019-05-11 13:18:36,2019-05-11 13:18:36,"0,001s",PASSED
+"sendRequest(findTestObject(""RESTWebServices/CreateUser"", [""userName"":userName]))",,,,2019-05-11 13:18:36,2019-05-11 13:18:36,"0,658s",PASSED
+,,,,,,,
+Test Cases/DataDrivenDemoTest,,,,2019-05-11 13:18:36,2019-05-11 13:18:37,"0,667s",PASSED
+"println(""... using username: "" + userName)",,,,2019-05-11 13:18:36,2019-05-11 13:18:36,"0,001s",PASSED
+"sendRequest(findTestObject(""RESTWebServices/CreateUser"", [""userName"":userName]))",,,,2019-05-11 13:18:36,2019-05-11 13:18:37,"0,656s",PASSED

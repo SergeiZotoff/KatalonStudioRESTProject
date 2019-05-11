@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DataDrivenTestSuite" time="4" tests="3" failures="0" errors="0">
+   <testsuite name="DataDrivenTestSuite" tests="3" failures="0" errors="0" time="4" timestamp="2019-05-11 13:19:23" hostname="main - DESKTOP-8TRR29R" id="Test Suites/DataDrivenTestSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\main\\Katalon Studio\\Sample REST API Testing\\Reports\\DataDrivenTestSuite\\20190511_131919"/>
+         <property name="logFiles" value="C:\\Users\\main\\Katalon Studio\\Sample REST API Testing\\Reports\\DataDrivenTestSuite\\20190511_131919\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="main - DESKTOP-8TRR29R"/>
+         <property name="hostAddress" value="192.168.1.47"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.2.2"/>
+      </properties>
+      <testcase name="Test Cases/DataDrivenDemoTest" classname="Test Cases/DataDrivenDemoTest" status="PASSED">
+         <system-out><![CDATA[2019-05-11 13:19:23 - [TEST_CASE][PASSED] - Test Cases/DataDrivenDemoTest: Test Cases/DataDrivenDemoTest
+
+2019-05-11 13:19:23 - [TEST_STEP][PASSED] - println("... using username: " + userName): null
+
+2019-05-11 13:19:23 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebServices/CreateUser", ["userName":userName])): Send request successfully
+
+2019-05-11 13:19:26 - [MESSAGE][INFO] - HAR: C:\Users\main\Katalon Studio\Sample REST API Testing\Reports\DataDrivenTestSuite\20190511_131919\requests\main\null.har
+
+2019-05-11 13:19:26 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDrivenDemoTest" classname="Test Cases/DataDrivenDemoTest" status="PASSED">
+         <system-out><![CDATA[2019-05-11 13:19:26 - [TEST_CASE][PASSED] - Test Cases/DataDrivenDemoTest: Test Cases/DataDrivenDemoTest
+
+2019-05-11 13:19:26 - [TEST_STEP][PASSED] - println("... using username: " + userName): null
+
+2019-05-11 13:19:26 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebServices/CreateUser", ["userName":userName])): Send request successfully
+
+2019-05-11 13:19:27 - [MESSAGE][INFO] - HAR: C:\Users\main\Katalon Studio\Sample REST API Testing\Reports\DataDrivenTestSuite\20190511_131919\requests\main\null.har
+
+2019-05-11 13:19:27 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDrivenDemoTest" classname="Test Cases/DataDrivenDemoTest" status="PASSED">
+         <system-out><![CDATA[2019-05-11 13:19:27 - [TEST_CASE][PASSED] - Test Cases/DataDrivenDemoTest: Test Cases/DataDrivenDemoTest
+
+2019-05-11 13:19:27 - [TEST_STEP][PASSED] - println("... using username: " + userName): null
+
+2019-05-11 13:19:27 - [TEST_STEP][PASSED] - sendRequest(findTestObject("RESTWebServices/CreateUser", ["userName":userName])): Send request successfully
+
+2019-05-11 13:19:27 - [MESSAGE][INFO] - HAR: C:\Users\main\Katalon Studio\Sample REST API Testing\Reports\DataDrivenTestSuite\20190511_131919\requests\main\null.har
+
+2019-05-11 13:19:27 - [MESSAGE][PASSED] - Send request successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-11 13:19:23 - [TEST_SUITE][PASSED] - DataDrivenTestSuite: Test Cases/DataDrivenDemoTest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
